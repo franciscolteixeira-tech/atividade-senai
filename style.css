@@ -44,3 +44,54 @@ nav a{
     justify-content: space-between;
     min-height: 360px;
 }
+
+        .tags{
+            margin-bottom: 10px;
+               
+        }
+
+        .tags span{
+            background-color: #eee;
+            border-radius: 12px;
+            padding: 4px 10px;
+            font-size: 12px;
+            margin-right: 5px;
+           border: 1px solid rgb(14, 13, 13);
+            
+        }
+ 
+
+ 
+    .buttons{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+.saiba, .inscrever{
+  padding: 8px 16px;
+  border: none; 
+  border-radius: 10px; 
+}
+.saiba{
+background-color: white;
+border: 1px solid red; 
+color: red;
+
+}
+ 
+
+ 
+
+ .inscrever{
+background-color: red;
+color: #ccc;
+
+}
+.container{
+    font-size: large;
+}
+ 
+
+ 
