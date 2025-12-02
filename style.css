@@ -15,64 +15,69 @@ body{
 header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 20px;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #444444;
 }
+
 header img{
     height: 40px;
 }
-nav a{
+nav{
     font-weight: bold;
     font-style: italic;
-    margin-right: 20px;
+    margin-right: 8px;
+   
+   
 }
+
 .container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    gap: 25px;
+    gap: 10px;
     margin: 30px auto;
     max-width: 1100px;
 }
 
 .card{
-    border: 1px solid #ccc;
+    border: 1px solid #a3a3a3;
     border-radius: 10px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: 360px;
+    
 }
 
         .tags{
-            margin-bottom: 10px;
+            margin-bottom: 5px;
                
         }
 
         .tags span{
-            background-color: #eee;
+            background-color: #ffffff;
             border-radius: 12px;
             padding: 4px 10px;
-            font-size: 12px;
+            font-size: 11px;
             margin-right: 5px;
-           border: 1px solid rgb(14, 13, 13);
+           border: 1px solid rgb(49, 49, 49);
             
         }
  
 
  
     .buttons{
-        margin-top: 15px;
+        margin-top: 30px;
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 10px;
     }
 
 .saiba, .inscrever{
   padding: 8px 16px;
   border: none; 
-  border-radius: 10px; 
+  border-radius: 20px; 
 }
 .saiba{
 background-color: white;
@@ -86,12 +91,39 @@ color: red;
 
  .inscrever{
 background-color: red;
-color: #ccc;
+color: #fcfcfc;
 
 }
 .container{
     font-size: large;
 }
- 
+
+.estrutura-texto1{
+    color: aliceblue;
+    margin: 30px;
+  }
+  
+  .texto-recursos{
+    color: white;
+    display: flex;
+  }
+  
+  .estrutura-universal{
+  
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    gap: 160px;
+    margin: 10px;
+    text-align: left;
+    
+  }
+  
+  .estrutura-universal2{
+   display: flex;
+   background-color: #333333;
+  
+  }
 
  
